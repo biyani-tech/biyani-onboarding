@@ -1,31 +1,50 @@
 # Timetable stack challenge
 
-Four interns rebuild **the same timetable entry form** from our College Management System, each on a different stack and with a different AI tool. Then we compare.
+Four interns build **the same small timetable feature**, each on a different combination of backend and database, and each with a different AI tool. Then we compare.
 
-The code lives in the challenge repository: **[timetable-stack-challenge](https://github.com/biyani-tech/timetable-stack-challenge)**. Its README is the full brief. This page is the summary.
+The code lives in the challenge repository: **[timetable-stack-challenge](https://github.com/YOUR-ORG/timetable-stack-challenge)**. Its README is the full brief. This page is the summary.
 
-::: warning The repo is not published yet
-Your trainer will share the link and add you to it on sprint day 1. If the link above gives you a 404, that is why; it is not something you have done wrong.
-:::
+## What you build: one form, one report
+
+| Screen | Who uses it | What it does |
+| --- | --- | --- |
+| **Lecture form** | A teacher | Pick teacher, class, subject and period, tick the days of the week, save. One save can add the same lecture on several days |
+| **Timetable report** | Students, the headmaster or admin | The week as a grid. **By class** shows what one class has each period. **By teacher** shows one teacher's week, or every teacher's for the headmaster |
+
+The form stops two kinds of clash: a class with two lectures in the same period, and a teacher in two classes at once. If any ticked day clashes, nothing is saved, and the form lists every clash so the teacher can fix them in one go.
+
+Teachers, classes, subjects and periods are already in the database, so there's nothing else to build.
 
 ## The four lanes
 
-| Lane | Stack | AI tool | Why it's here |
+Everyone builds the screens in React. The lanes differ in backend and database:
+
+| Lane | Backend | Database | AI tool |
 | --- | --- | --- | --- |
-| 1 | .NET 10 Web API + React (Vite, TypeScript) + PostgreSQL | Google Antigravity | Our target stack |
-| 2 | .NET 10 Razor Pages + EF Core + PostgreSQL | GitHub Copilot | Closest to our legacy screens; no separate front end |
-| 3 | Python FastAPI + React (Vite, TypeScript) + PostgreSQL | OpenAI Codex | Tests Python, which we may use for analytics and AI |
-| 4 | Next.js (TypeScript, full-stack) + PostgreSQL | Claude Code | Tests the "Next.js for simplicity" idea with real numbers |
+| 1 | C# .NET 10 | PostgreSQL | Google Antigravity |
+| 2 | C# .NET 10 | SQL Server Express | GitHub Copilot |
+| 3 | Python (FastAPI) | PostgreSQL | OpenAI Codex |
+| 4 | Python (FastAPI) | SQL Server Express | Google Antigravity |
+
+The lanes form a grid, so each comparison changes one thing at a time:
+
+|  | PostgreSQL | SQL Server Express |
+| --- | --- | --- |
+| **.NET 10** | Lane 1: our target stack | Lane 2: new backend, today's database |
+| **Python** | Lane 3 | Lane 4 |
+
+- **Across a row** (1 vs 2, 3 vs 4): what does the database choice change?
+- **Down a column** (1 vs 3, 2 vs 4): what does the backend language change?
 
 Your trainer assigns lanes. To change the combinations, edit this table and the repo's README.
 
 ## What everyone shares
 
-- **One database:** the same PostgreSQL schema and made-up seed data.
-- **One spec:** the fields, screens and eight rules (R1–R8), such as "a faculty member can't teach two classes in the same period."
-- **One API contract** for lanes with an API, so lanes 1, 3 and 4 can be compared like for like.
-- **Twelve acceptance checks** (A1–A12) everyone demos.
-- **One scorecard** everyone fills in on day 3.
+- **One spec** with four rules (R1–R4), such as "a teacher can't teach two classes in the same period."
+- **The same tables and made-up seed data** on both databases, so results are comparable.
+- **One API contract**, so any lane's React app works with any other lane's API. On Day 3 you prove it with a swap test.
+- **Ten acceptance checks**: A1–A6 for the form, A7–A10 for the report.
+- **One scorecard** everyone fills in on Day 3.
 
 ## What you hand in
 
@@ -37,4 +56,4 @@ Your trainer assigns lanes. To change the combinations, edit this table and the 
 
 ## Why we do this
 
-You learn the most from one small, real feature built with care. And the team learns something too: four stacks and four AI tools compared on our own problem, not on someone's blog.
+You learn the most from one small, real feature built with care. And the team learns something too: two backends, two databases and four AI tools compared on our own problem, not on someone's blog.
