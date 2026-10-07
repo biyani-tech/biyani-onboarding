@@ -1,0 +1,301 @@
+/* Biyani onboarding theme.
+   Idea: the onboarding journey reads like a college timetable,
+   the thing our products are built around. Ink blue for structure,
+   marigold for the one thing that matters on a screen. */
+
+:root {
+  --bh-ink: #1b2a6b;
+  --bh-ink-soft: #33449a;
+  --bh-marigold: #f2a900;
+  --bh-marigold-deep: #b67d00;
+  --bh-paper: #f6f8fb;
+  --bh-rule: #d7deea;
+  --bh-text: #18203a;
+
+  --vp-font-family-base: 'Mukta', 'Noto Sans Devanagari', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --vp-c-brand-1: var(--bh-ink);
+  --vp-c-brand-2: var(--bh-ink-soft);
+  --vp-c-brand-3: var(--bh-ink);
+  --vp-c-brand-soft: rgba(27, 42, 107, 0.09);
+
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: var(--bh-paper);
+  --vp-c-text-1: var(--bh-text);
+  --vp-c-divider: var(--bh-rule);
+
+  --vp-c-tip-1: var(--bh-ink);
+  --vp-c-tip-soft: rgba(27, 42, 107, 0.07);
+  --vp-c-warning-1: var(--bh-marigold-deep);
+  --vp-c-warning-soft: rgba(242, 169, 0, 0.14);
+
+  --vp-button-brand-bg: var(--bh-ink);
+  --vp-button-brand-hover-bg: var(--bh-ink-soft);
+}
+
+.dark {
+  --bh-ink: #9fb0ff;
+  --bh-ink-soft: #c2ccff;
+  --bh-paper: #141b3d;
+  --bh-rule: #2a3463;
+  --bh-text: #e8ecf8;
+
+  --vp-c-bg: #0f1530;
+  --vp-c-bg-alt: #141b3d;
+  --vp-c-bg-soft: #18204a;
+  --vp-c-brand-soft: rgba(159, 176, 255, 0.14);
+  --vp-button-brand-text: #0f1530;
+}
+
+/* Type scale: slightly larger body, tight bold headings */
+.vp-doc {
+  font-size: 17px;
+  line-height: 1.68;
+}
+.vp-doc p,
+.vp-doc li {
+  max-width: 72ch;
+}
+.vp-doc h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.vp-doc h2 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  border-top: 2px solid var(--bh-rule);
+}
+.vp-doc h3 {
+  font-weight: 700;
+}
+.vp-doc table {
+  font-size: 15px;
+}
+.vp-doc th {
+  background: var(--vp-c-bg-alt);
+}
+
+/* Home hero */
+.bh-hero {
+  padding: 64px 0 40px;
+}
+.bh-greeting {
+  font-size: clamp(56px, 11vw, 128px);
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--bh-marigold);
+  margin: 0;
+}
+.bh-title {
+  font-size: clamp(30px, 4.6vw, 52px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  color: var(--bh-ink);
+  margin: 8px 0 0;
+  max-width: 20ch;
+  border: 0;
+  padding: 0;
+}
+.bh-lead {
+  font-size: 20px;
+  line-height: 1.55;
+  max-width: 56ch;
+  margin: 20px 0 0;
+  color: var(--vp-c-text-2);
+}
+.bh-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+.bh-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+.bh-btn--primary {
+  background: var(--bh-ink);
+  color: #fff;
+}
+.dark .bh-btn--primary {
+  color: #0f1530;
+}
+.bh-btn--primary:hover {
+  background: var(--bh-ink-soft);
+}
+.bh-btn--plain {
+  color: var(--bh-ink);
+  box-shadow: inset 0 0 0 2px var(--bh-ink);
+}
+.bh-btn--plain:hover {
+  background: var(--vp-c-brand-soft);
+}
+.bh-btn:focus-visible,
+.bh-cell__link:focus-visible {
+  outline: 3px solid var(--bh-marigold);
+  outline-offset: 3px;
+}
+
+/* Journey as a timetable */
+.bh-journey {
+  padding: 24px 0 56px;
+}
+.bh-journey__head h2 {
+  border: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+  color: var(--vp-c-text-1);
+}
+.bh-journey__head p {
+  margin: 6px 0 0;
+  color: var(--vp-c-text-2);
+  max-width: 60ch;
+}
+.bh-grid {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  border-top: 3px solid var(--bh-ink);
+  border-left: 1px solid var(--bh-rule);
+}
+.bh-cell {
+  border-right: 1px solid var(--bh-rule);
+  border-bottom: 1px solid var(--bh-rule);
+}
+.bh-cell__link {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  padding: 16px 16px 20px;
+  color: inherit;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+.bh-cell__link:hover {
+  background: var(--vp-c-bg-alt);
+}
+.bh-cell__period {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bh-ink);
+}
+.bh-cell__when {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+.bh-cell__title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 6px;
+}
+.bh-cell__text {
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--vp-c-text-2);
+}
+.bh-cell:first-child .bh-cell__link {
+  background: var(--bh-marigold);
+  color: #1b1400;
+}
+.bh-cell:first-child .bh-cell__period,
+.bh-cell:first-child .bh-cell__when,
+.bh-cell:first-child .bh-cell__text {
+  color: #3d2c00;
+}
+.bh-cell:first-child .bh-cell__link:hover {
+  background: #ffbb1c;
+}
+
+/* Home body below the journey */
+.VPHome .vp-doc > h2:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 1100px) {
+  .bh-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .bh-hero {
+    padding-top: 40px;
+  }
+  .bh-grid {
+    grid-template-columns: 1fr;
+  }
+  .bh-cell__link {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    column-gap: 12px;
+    row-gap: 2px;
+  }
+  .bh-cell__period {
+    grid-row: span 4;
+    font-size: 18px;
+  }
+  .bh-cell__title {
+    margin-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bh-btn,
+  .bh-cell__link {
+    transition: none;
+  }
+}
+
+/* Keep markdown styles (.vp-doc) off the home components */
+.vp-doc .bh-grid {
+  list-style: none;
+  padding-left: 0;
+}
+.vp-doc .bh-grid > li,
+.vp-doc .bh-grid > li + li {
+  margin: 0;
+  max-width: none;
+}
+.vp-doc a.bh-cell__link,
+.vp-doc a.bh-btn {
+  text-decoration: none;
+}
+.vp-doc a.bh-cell__link {
+  color: inherit;
+}
+.vp-doc a.bh-btn--primary {
+  color: #fff;
+}
+.dark .vp-doc a.bh-btn--primary {
+  color: #0f1530;
+}
+.vp-doc a.bh-btn--plain {
+  color: var(--bh-ink);
+}
+.vp-doc .bh-hero p,
+.vp-doc .bh-journey p {
+  max-width: none;
+}
+.vp-doc .bh-hero p.bh-lead {
+  max-width: 56ch;
+}
+.vp-doc .bh-greeting {
+  line-height: 1.45;
+  margin: 0 0 4px;
+}
+.vp-doc .bh-journey {
+  padding-bottom: 32px;
+}
