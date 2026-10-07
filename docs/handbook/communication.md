@@ -6,7 +6,7 @@ We use **WhatsApp** for day-to-day talk and **GitHub** for anything about code.
 
 **Group:** the team or batch group your trainer adds you to.
 
-### Daily stand-up, by 9:30
+### Daily stand-up, by 10:30
 
 Post one message in this format:
 
