@@ -37,4 +37,4 @@ Blocked: EF Core can't connect to the database (error in thread)
 
 ## Working hours
 
-*Fill in: office hours, lunch break, how to report leave.*
+Your trainer confirms office hours, the lunch break and how to report leave on Day 1, and they're pinned in the team group. They're not on this site because it's public.

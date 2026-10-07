@@ -57,7 +57,8 @@ A rule that must not be broken (red).
 - Write for someone in their first week. Plain words, short sentences.
 - Lead with what to do. Explain why afterwards, briefly.
 - Prefer a checklist or table over long paragraphs.
-- Never include real names of students or clients, passwords or internal URLs that shouldn't be public. If this repo is public, everything in it is public.
+- **No names.** Not students', not customers', not colleagues' — including your own. Roles, not people.
+- Never include passwords, internal URLs, office addresses or anything else that shouldn't be public. **If this repo is public, everything in it is public**, including branch names and commit messages, and git history keeps them even after you delete the text.
 
 ## Publishing
 

@@ -18,4 +18,4 @@ Short, free and chosen for what you'll actually do here. Times marked approx. ar
 | Month 1 | [Foundational C# with Microsoft](https://www.freecodecamp.org/news/free-microsoft-c-sharp-certification/) | freeCodeCamp + Microsoft Learn | ~35 hrs | Free certificate; the C# you need to judge what AI writes |
 | Any time | [Learn Git Branching](https://learngitbranching.js.org/) | Open source | ~2 hrs (approx.) | Visual practice for branches and merges |
 
-Finished a course? Add it to your row in [Who to ask](/handbook/team) so the next batch knows who to ask about it.
+Finished a course? Say so in the team group and bring it to your next check-in with your trainer.

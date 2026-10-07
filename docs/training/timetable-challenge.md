@@ -2,7 +2,11 @@
 
 Four interns rebuild **the same timetable entry form** from our College Management System, each on a different stack and with a different AI tool. Then we compare.
 
-The code lives in the challenge repository: **[timetable-stack-challenge](https://github.com/YOUR-ORG/timetable-stack-challenge)**. Its README is the full brief. This page is the summary.
+The code lives in the challenge repository: **[timetable-stack-challenge](https://github.com/biyani-tech/timetable-stack-challenge)**. Its README is the full brief. This page is the summary.
+
+::: warning The repo is not published yet
+Your trainer will share the link and add you to it on sprint day 1. If the link above gives you a 404, that is why; it is not something you have done wrong.
+:::
 
 ## The four lanes
 

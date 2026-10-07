@@ -7,20 +7,22 @@ const base = process.env.BASE ?? '/biyani-onboarding/'
 export default defineConfig({
   base,
   lang: 'en-IN',
-  title: 'Biyani Onboarding',
+  title: 'AAI Onboarding',
   description: 'Everything a new team member at Biyani Technologies needs, step by step.',
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: `${base}favicon.svg`, type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: `${base}favicon.png`, type: 'image/png' }],
+    ['link', { rel: 'apple-touch-icon', href: `${base}apple-touch-icon.png` }],
+    ['meta', { name: 'theme-color', content: '#004eab' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700;800&display=swap' }],
   ],
 
   themeConfig: {
-    logo: { src: '/favicon.svg', alt: '' },
-    siteTitle: 'Biyani Onboarding',
+    logo: { src: '/logo-mark.png', alt: '' },
+    siteTitle: 'AAI Onboarding',
 
     nav: [
       { text: 'Start here', link: '/start/' },
@@ -37,7 +39,6 @@ export default defineConfig({
           { text: 'How onboarding works', link: '/start/' },
           { text: 'Who we are', link: '/company/' },
           { text: 'What we build', link: '/company/products' },
-          { text: 'Where our tech is heading', link: '/company/tech-direction' },
         ],
       },
       {
@@ -69,7 +70,6 @@ export default defineConfig({
         items: [
           { text: 'AI and data rules', link: '/handbook/ai-and-data-rules' },
           { text: 'How we communicate', link: '/handbook/communication' },
-          { text: 'Your first 90 days', link: '/handbook/first-90-days' },
           { text: 'Who to ask', link: '/handbook/team' },
           { text: 'Glossary', link: '/handbook/glossary' },
         ],

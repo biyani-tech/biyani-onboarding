@@ -1,20 +1,22 @@
 # Who to ask
 
-*Leaders: fill in names. Interns: add yourself on Day 1 as your first pull request.*
+Every question has someone whose job it is to answer it. This page tells you **which role** to ask. Your trainer will tell you who holds each one, and their contact details are in the team group.
 
-## The team
+Names, photos and contact details are deliberately not on this site, because it is public. That applies to everyone, including you.
 
-| Role | Name | Ask them about |
-| --- | --- | --- |
-| CEO | *[name]* | Company direction, customers |
-| CTO | *[name]* | Architecture, the modernisation plan, code reviews |
-| Trainer | *[name]* | Onboarding, the AI sprint, the timetable challenge |
-| IT admin | *[name]* | Laptops, accounts, servers, Docker trouble |
-| CMO | *[name]* | Products, how we sell, customer stories |
-| Support lead | *[name]* | How customers actually use our products |
+## By question
 
-## Interns
+| If your question is about | Ask |
+| --- | --- |
+| Onboarding, the AI sprint, the timetable challenge | Your trainer |
+| Architecture, the modernisation plan, code reviews | The engineering lead |
+| Laptops, accounts, servers, Docker trouble | The IT admin |
+| What a product does and how customers really use it | The support lead |
+| Our products, how we sell them, customer stories | The marketing team |
+| Team direction, your progress, anything you'd rather raise privately | Your manager |
 
-| Name | Joined | GitHub | Lane | Courses finished |
-| --- | --- | --- | --- | --- |
-| *Add yourself here* | | | | |
+## If you don't know who to ask
+
+Post in the team group and say what you're stuck on. Someone will point you at the right person.
+
+Asking the wrong person costs nobody anything. Staying stuck for a day does.

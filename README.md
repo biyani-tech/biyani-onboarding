@@ -7,7 +7,7 @@ Built with [VitePress](https://vitepress.dev). Every page is a Markdown file in 
 ## Publish it (one time)
 
 1. Create a repo on GitHub, for example `biyani-onboarding`, and push this folder to it.
-2. In `docs/.vitepress/config.mts`, replace `YOUR-ORG` with your GitHub organisation or username.
+2. In `docs/.vitepress/config.mts`, check that `repo` points at your GitHub organisation.
 3. On GitHub: **Settings → Pages → Source: GitHub Actions**.
 4. Push to `main`. The site appears at `https://<your-org>.github.io/biyani-onboarding/` in about two minutes.
 

@@ -5,7 +5,7 @@ Most of what you'll work on falls into one of four kinds of software. Knowing wh
 | Kind | Products | What matters most |
 | --- | --- | --- |
 | Everyday administration (ERP) | Galaxy College and School ERP (25 modules, around 500 reports), library, LMS, NAAC/NBA accreditation, admissions, grievance, exams | Correct data, fast forms, reports that match the paper version exactly |
-| Busy-day events | Online exams with webcam proctoring, admissions, fee deadlines, results | Staying up during short, heavy bursts of traffic |
+| Busy-day events | Online exams with webcam proctoring, admissions, fee deadlines, results | Handling the seasonal peaks these bring |
 | Offline and real-time | ACE Digital Language Lab | Two-way audio, recording and screen monitoring over a campus network, even without internet |
 | Engagement and hardware | Eduscoop parent app, bulk SMS, interactive flat panels, automatic bells | Messages that reach parents; apps that run on classroom panels |
 
@@ -17,7 +17,7 @@ Medical universities, engineering colleges, polytechnics, arts and science colle
 
 Four things are always true about them:
 
-- They are **price-sensitive**.
+- They work to **tight budgets**.
 - Their **internet can be patchy**.
 - Their work comes in **seasons**: admissions, exams and results.
 - Their data includes **personal details of minors**.

@@ -35,11 +35,12 @@ git push -u origin fix-timetable-clash  # then open a PR on GitHub
 
 ## Our conventions
 
-- **Branch names:** short and descriptive, e.g. `lane-2-priya` or `fix-room-clash-message`.
+- **Branch names:** short and descriptive, e.g. `lane-2-timetable-form` or `fix-room-clash-message`. Describe the work, not the person.
 - **Commit messages:** say *what* and *why* in one line, in the present tense. "Add batch field to entry form", not "changes" or "final".
 - **Small PRs:** one idea per PR. Easier to review, easier to undo.
 - **Fill in the PR template**, including what the AI did and how you checked it.
 - **Never commit secrets:** passwords, API keys, connection strings or `.env` files.
+- **Keep people out of the history.** Branch names, commit messages and pull request text are permanent and, in a public repo, visible to anyone. No colleagues', students' or customers' names.
 
 ## Undo, safely
 

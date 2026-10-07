@@ -16,9 +16,7 @@ To make available to the user the most sophisticated, yet user-friendly software
 
 ## How we work
 
-::: warning Draft values
-These are proposed by the engineering team and not yet signed off by leadership. Edit this section once they are confirmed.
-:::
+These are the working principles of our team. They sit alongside the vision and mission above, and we revise them as we learn.
 
 - **Simple for the user, whatever it takes behind the screen.** A clerk in a college office should never need a manual. Complexity is our job, not theirs.
 - **Built for the institutions we serve.** Patchy internet, tight budgets, exam-day rushes and Marathi-, Hindi- and English-speaking users are normal for our customers, so we design for them.
@@ -30,12 +28,5 @@ These are proposed by the engineering team and not yet signed off by leadership.
 
 Our head office is in Kolhapur, with offices across India including Pune, Mumbai, Nagpur, Jaipur, Bhopal, Raipur and Chandigarh, and we serve 700+ institutions.
 
-## A short history
 
-| Year | What happened |
-| --- | --- |
-| 2006 | Biyani Technologies founded in Kolhapur |
-| 2007 | Incorporated as Biyani Technologies Private Limited |
-| 2026 | Platform modernisation begins: one cloud platform on .NET 10, PostgreSQL and React |
 
-*Add milestones here as they happen.*

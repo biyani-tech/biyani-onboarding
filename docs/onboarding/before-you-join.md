@@ -25,6 +25,17 @@ Docker, an AI coding tool, VS Code and a browser together are heavy. If your lap
 
 You can do them in any order. Note one question from each to ask on Day 1.
 
+## What your trainer will send you
+
+You don't need to work any of this out yourself. Before your first day you'll get a message with:
+
+- The office address, and which floor to come to
+- What time to arrive on Day 1, and who to ask for when you get there
+- Any documents to bring
+- What to do if you're delayed or can't find the place
+
+These aren't on this site because it's public. If you haven't had that message two days before you start, ask in the group. Chasing it isn't rude; it's the sensible thing to do.
+
 ## Read
 
 - [Who we are](/company/) and [what we build](/company/products), 10 minutes

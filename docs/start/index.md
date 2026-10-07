@@ -8,9 +8,7 @@ Your first three months follow one simple path: **set up, learn, build, own**. E
 | P2 | Day 1 | Meet the team, install tools, make your first pull request | [Day 1](/onboarding/day-1) |
 | P3 | Sprint day 1 | Learn prompting, tokens, plan mode, AI tools and Git | [3-day AI sprint](/training/ai-sprint) |
 | P4 | Sprint days 2–3 | Build the timetable form on your assigned stack | [Timetable challenge](/training/timetable-challenge) |
-| P5 | Weeks 2–4 | Fix a small real issue in a live product, with a buddy | [First 90 days](/handbook/first-90-days) |
-| P6 | Month 2 | Own one small module or feature | [First 90 days](/handbook/first-90-days) |
-| P7 | Month 3 | Help onboard the next batch; improve this site | [How to update this site](/contributing) |
+
 
 ## Three things we expect from day one
 
@@ -21,5 +19,4 @@ Your first three months follow one simple path: **set up, learn, build, own**. E
 ## Who looks after you
 
 - **Your trainer** runs the AI sprint and the timetable challenge.
-- **Your buddy** (assigned in week 2) pairs with you on your first real ticket.
-- **Everyone else** is listed in [Who to ask](/handbook/team).
+- **Everyone else** is in [Who to ask](/handbook/team), by role.
