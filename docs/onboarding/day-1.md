@@ -4,9 +4,9 @@ By the end of today you'll have every tool working and your first pull request m
 
 ## Morning: welcome
 
-- [ ] Meet your trainer and the team
+- [ ] Meet your team
 - [ ] Join the WhatsApp group; post a one-line hello
-- [ ] Accept the GitHub organisation invite (check your email)
+- [ ] Accept the GitHub organisation invite (check your email/whatsapp)
 - [ ] Read [How we communicate](/handbook/communication)
 
 ## Midday: set up your laptop

@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // Change these two lines when you fork or rename the repo.
-const repo = 'https://github.com/YOUR-ORG/biyani-onboarding'
+const repo = 'https://github.com/biyani-tech/biyani-onboarding'
 const base = process.env.BASE ?? '/biyani-onboarding/'
 
 export default defineConfig({

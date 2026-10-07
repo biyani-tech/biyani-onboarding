@@ -8,7 +8,7 @@ About two hours of work, done before your first day. It means Day 1 is spent lea
 - [ ] **Google account:** you'll use it to sign in to Google Antigravity, our main AI coding tool. Use the account your trainer tells you to.
 - [ ] **WhatsApp:** share the number you want added to the team group.
 
-## Your laptop
+## Your laptop/desktop
 
 | | Minimum | Better |
 | --- | --- | --- |
