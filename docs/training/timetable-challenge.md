@@ -2,7 +2,7 @@
 
 Four interns build **the same small timetable feature**, each on a different combination of backend and database, and each with a different AI tool. Then we compare.
 
-The code lives in the challenge repository: **[timetable-stack-challenge](https://github.com/YOUR-ORG/timetable-stack-challenge)**. Its README is the full brief. This page is the summary.
+The code lives in the challenge repository: **[timetable-stack-challenge](https://github.com/biyani-tech/timetable-module-challenge)**. Its README is the full brief. This page is the summary.
 
 ## What you build: one form, one report
 
