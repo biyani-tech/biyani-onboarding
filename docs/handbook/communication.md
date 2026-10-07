@@ -35,6 +35,3 @@ Blocked: EF Core can't connect to the database (error in thread)
 - Link the PR in WhatsApp when you need a review: "PR ready for review: [link]"
 - Use issues for anything that's left over or broken.
 
-## Working hours
-
-Your trainer confirms office hours, the lunch break and how to report leave on Day 1, and they're pinned in the team group. They're not on this site because it's public.
