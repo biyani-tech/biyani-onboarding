@@ -62,4 +62,21 @@ A rule that must not be broken (red).
 
 ## Publishing
 
-Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages. One-time setup: in the repo on GitHub, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+We use two branches:
+
+| Branch | What it is |
+| --- | --- |
+| `main` | Where reviewed changes land. Merging here does **not** publish anything |
+| `production` | What is live on the site |
+
+So your pull request goes into `main`, as normal. Nothing you do publishes the site by accident.
+
+When the team is ready to publish, someone promotes `main` to `production`:
+
+```bash
+git switch production
+git merge --ff-only main
+git push
+```
+
+That runs `.github/workflows/deploy.yml` and the live site updates in about two minutes. If `merge --ff-only` refuses, the two branches have diverged: ask before forcing anything.
